@@ -94,7 +94,11 @@ nav {
 }
 
 .intro {
+<<<<<<< HEAD
   background-image: url("color.jpg");
+=======
+  background-image: url("https://github.com/bluehat7737/navbar/blob/master/Images/color.jpg");
+>>>>>>> 0193b07081183ce8bf08007bc0eea24f3c7c4994
   width: 100%;
   height: 85vh;
   background-size: cover;
