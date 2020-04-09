@@ -22,10 +22,10 @@ body {
 header {
   width: 100%;
   height: 5rem;
-  /* position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
-  z-index: 1; */
+  z-index: 1;
 }
 
 .nav-bar {
@@ -41,11 +41,11 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(12, 11, 11);
 }
 
 .nav-brand a ion-icon {
-  font-size : 3rem;
+  font-size: 3rem;
 }
 
 .menu-icon ion-icon {
@@ -91,4 +91,26 @@ nav {
   font-size: 1.6rem;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.7);
+}
+
+.intro {
+  background-image: url("images/color.jpg");
+  width: 100%;
+  height: 85vh;
+  background-size: cover;
+}
+
+.intro-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.anshul img {
+  width: 40vh;
+  margin-left: 15px;
+}
+
+.intro-content {
+  text-align: center;
+  margin-top: 10px;
 }
